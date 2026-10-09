@@ -1,0 +1,5 @@
+# for additional pywaggle install options, see: https://github.com/waggle-sensor/pywaggle#installation-guides
+pywaggle==0.56.0
+# Client for the sage-kafka mirror, with its Avro / JSON Schema support. Pinned to a
+# commit so rebuilds are reproducible; move the hash forward to pick up changes.
+neon-sage-edge[registry] @ https://github.com/sagecontinuum/neon_sage_edge/archive/2ef805f446f0e230f29dee92cd58280b7d70c776.tar.gz
