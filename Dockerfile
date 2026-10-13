@@ -1,4 +1,4 @@
-FROM waggle/sage-thor-base:0.1.0
+FROM python:3.12
 
 RUN apt-get update && apt-get install -y --no-install-recommends socat \
     && rm -rf /var/lib/apt/lists/*
