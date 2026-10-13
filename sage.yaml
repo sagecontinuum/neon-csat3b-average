@@ -1,5 +1,5 @@
 name: "neon-csat3b-average"
-version: "0.1.2"
+version: "0.1.3"
 description: "Publishes 30-minute rolling averages of NEON CSAT3B sonic anemometer data read from the sage-kafka mirror."
 keywords: "neon, kafka, csat3b, sonic anemometer, wind, eddy covariance, rolling average"
 namespace: "iperezx"

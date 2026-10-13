@@ -96,7 +96,7 @@ def publish(plugin: Plugin, summaries: List[WindowSummary], args: argparse.Names
                 "topic": args.topic}
         if summary.group is not None:
             meta["group"] = f"{args.group_by}={summary.group}"
-        plugin.publish(f"{args.prefix}.readings", summary.readings, timestamp=timestamp, meta=meta)
+        # plugin.publish(f"{args.prefix}.readings", summary.readings, timestamp=timestamp, meta=meta)
         for average in summary.averages:
             plugin.publish(measurement_name(args.prefix, average.field), average.mean, timestamp=timestamp,
                            meta={**meta, "field": average.field, "samples": str(average.samples)})
