@@ -21,7 +21,6 @@ Every 30 minutes, the plugin reads the newest readings from the site's Kafka mir
 | `neon.csat3b.ux_wind_speed.mean` | Mean wind along the anemometer's x axis | m/s |
 | `neon.csat3b.uy_wind_speed.mean` | Mean wind along the anemometer's y axis | m/s |
 | `neon.csat3b.uz_wind_speed.mean` | Mean vertical wind | m/s |
-| `neon.csat3b.readings` | Number of readings in the window | count |
 
 Each value is timestamped at the end of its window. It carries the metadata `window_start`, `window_end`, `window_minutes` and `topic`; the means also carry `field` and `samples`, the number of readings averaged.
 

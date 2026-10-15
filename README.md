@@ -19,7 +19,6 @@ All values are timestamped at the window's end.
 | `neon.csat3b.ux_wind_speed.mean` | Mean of `ux_wind_speed` over the window |
 | `neon.csat3b.uy_wind_speed.mean` | Mean of `uy_wind_speed` over the window |
 | `neon.csat3b.uz_wind_speed.mean` | Mean of `uz_wind_speed` over the window |
-| `neon.csat3b.readings` | Number of readings in the window |
 
 Every value carries metadata: `window_start`, `window_end`, `window_minutes` and `topic`. Each mean also carries the original `field` name and its `samples` count, the readings in the window that had a value for that field. With `--group-by`, a `group` entry names the sensor.
 
